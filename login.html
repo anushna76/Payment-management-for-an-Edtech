@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>KICKSTART</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            <h1 class="head">KICKSTART</h1>
+            <nav>
+                <a href="index.html">Home</a>
+               <a href="register.html">Register</a>
+                
+            </nav>
+        </header>
+<!--login/sigin-->
+        <main>
+            <h2 style="text-align: center; font-size: 40px;" >Login</h2>
+            <form id="authform">
+                <label for="Username">Username:</label>
+                <input type="text" id="loginusername" placeholder="Enter Username"><br>
+                Password:<input type="password" id="loginpassword" placeholder="Enter password"><br>
+                <select id="role">
+                    <option value="" disabled selected>--Select Role--</option>
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="admin">Admin</option>
+                </select><br>
+                <button type="submit">login</button>
+                <p>Not registered?<a href="register.html"> Register here</a></p>
+                <p id="loginMsg"></p>
+            </form>
+            
+        </main>
+        <footer style="text-align: center;">
+            <p>&copy; 2025 KICKSTART</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+<html>
