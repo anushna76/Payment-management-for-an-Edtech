@@ -1,4 +1,4 @@
-# Payment-management-for-an-Edtech
+# Payment management for an Edtech
 KICKSTART is the name of Edtech.
 
 Payment Management System for an EdTech(KICKSTART)
